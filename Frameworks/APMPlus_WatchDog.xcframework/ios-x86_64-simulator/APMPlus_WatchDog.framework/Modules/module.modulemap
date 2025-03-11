@@ -1,0 +1,6 @@
+framework module APMPlus_WatchDog {
+  umbrella header "APMPlus_WatchDog.h"
+  export *
+
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module APMPlus_Disk {
+  umbrella header "APMPlus_Disk.h"
+  export *
+
+  module * { export * }
+}

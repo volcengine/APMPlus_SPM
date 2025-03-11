@@ -1,0 +1,6 @@
+framework module APMPlus_Monitors {
+  umbrella header "APMPlus_Monitors.h"
+  export *
+
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module APMPlus_Zyone {
+  umbrella header "APMPlus_Zyone.h"
+  export *
+
+  module * { export * }
+}

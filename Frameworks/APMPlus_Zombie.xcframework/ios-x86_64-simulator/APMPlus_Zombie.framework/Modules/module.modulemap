@@ -1,0 +1,6 @@
+framework module APMPlus_Zombie {
+  umbrella header "APMPlus_Zombie.h"
+  export *
+
+  module * { export * }
+}

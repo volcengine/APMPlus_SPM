@@ -1,0 +1,6 @@
+framework module APMPlus_UserException {
+  umbrella header "APMPlus_UserException.h"
+  export *
+
+  module * { export * }
+}

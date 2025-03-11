@@ -1,0 +1,6 @@
+framework module APMPlus_HMD {
+  umbrella header "APMPlus_HMD.h"
+  export *
+
+  module * { export * }
+}

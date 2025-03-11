@@ -1,0 +1,6 @@
+framework module APMPlus_CloudCommand {
+  umbrella header "APMPlus_CloudCommand.h"
+  export *
+
+  module * { export * }
+}

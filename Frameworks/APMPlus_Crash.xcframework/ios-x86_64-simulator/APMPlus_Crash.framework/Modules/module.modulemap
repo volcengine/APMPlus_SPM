@@ -1,0 +1,6 @@
+framework module APMPlus_Crash {
+  umbrella header "APMPlus_Crash.h"
+  export *
+
+  module * { export * }
+}

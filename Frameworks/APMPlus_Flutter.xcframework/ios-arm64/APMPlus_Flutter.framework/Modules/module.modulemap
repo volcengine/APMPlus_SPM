@@ -1,0 +1,6 @@
+framework module APMPlus_Flutter {
+  umbrella header "APMPlus_Flutter.h"
+  export *
+
+  module * { export * }
+}

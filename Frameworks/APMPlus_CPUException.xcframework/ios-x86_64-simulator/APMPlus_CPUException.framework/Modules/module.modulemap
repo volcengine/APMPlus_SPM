@@ -1,0 +1,6 @@
+framework module APMPlus_CPUException {
+  umbrella header "APMPlus_CPUException.h"
+  export *
+
+  module * { export * }
+}

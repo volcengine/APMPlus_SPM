@@ -1,0 +1,6 @@
+framework module APMPlus_Above {
+  umbrella header "APMPlus_Above.h"
+  export *
+
+  module * { export * }
+}

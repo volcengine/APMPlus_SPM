@@ -1,0 +1,6 @@
+framework module APMPlus_UITrackers {
+  umbrella header "APMPlus_UITrackers.h"
+  export *
+
+  module * { export * }
+}

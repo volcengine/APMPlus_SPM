@@ -1,0 +1,6 @@
+framework module APMPlus_NetworkPro {
+  umbrella header "APMPlus_NetworkPro.h"
+  export *
+
+  module * { export * }
+}

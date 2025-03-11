@@ -1,0 +1,6 @@
+framework module APMPlus_BootingProtect {
+  umbrella header "APMPlus_BootingProtect.h"
+  export *
+
+  module * { export * }
+}

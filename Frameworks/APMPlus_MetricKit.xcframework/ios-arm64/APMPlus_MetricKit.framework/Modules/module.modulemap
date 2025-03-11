@@ -1,0 +1,6 @@
+framework module APMPlus_MetricKit {
+  umbrella header "APMPlus_MetricKit.h"
+  export *
+
+  module * { export * }
+}

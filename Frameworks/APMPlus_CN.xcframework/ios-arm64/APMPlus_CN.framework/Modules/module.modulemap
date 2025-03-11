@@ -1,0 +1,6 @@
+framework module APMPlus_CN {
+  umbrella header "APMPlus_CN.h"
+  export *
+
+  module * { export * }
+}
