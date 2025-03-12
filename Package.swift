@@ -17,7 +17,7 @@ let package = Package(
         ),
         .library(
             name: "APMPlus_Public",
-            targets: [ "APMPlus_Public", "APMPlus_Core", "APMPlus_Above", "APMPlus_Zyone", "APMPlus_HMDLite", "APMPlus_dependency" ]
+            targets: [ "APMPlus_Public", "APMPlus_HMDLite", "APMPlus_Core", "APMPlus_Zyone", "APMPlus_Above" ]
         ),
         .library(
             name: "APMPlus_Core",
@@ -25,7 +25,7 @@ let package = Package(
         ),
         .library(
             name: "APMPlus_HMD",
-            targets: [ "APMPlus_HMD", "APMPlus_Core", "APMPlus_Public" ]
+            targets: [ "APMPlus_HMD", "APMPlus_Core", "APMPlus_Above", "APMPlus_Zyone", "APMPlus_HMDLite", "APMPlus_dependency", "APMPlus_Public" ]
         ),
         .library(
             name: "APMPlus_HMDLite",
@@ -33,119 +33,119 @@ let package = Package(
         ),
         .library(
             name: "APMPlus_Crash",
-            targets: [ "APMPlus_Crash", "APMPlus_Core", "APMPlus_Public", "APMPlus_HMD", "APMPlus_SessionTracker", "APMPlus_Zip" ]
+            targets: [ "APMPlus_Crash", "APMPlus_Core", "APMPlus_SessionTracker", "APMPlus_Zip", "APMPlus_Public", "APMPlus_HMD", "APMPlus_Above", "APMPlus_Zyone", "APMPlus_HMDLite", "APMPlus_dependency" ]
         ),
         .library(
             name: "APMPlus_WatchDog",
-            targets: [ "APMPlus_WatchDog", "APMPlus_Core", "APMPlus_HMD", "APMPlus_Public", "APMPlus_SessionTracker" ]
+            targets: [ "APMPlus_WatchDog", "APMPlus_Core", "APMPlus_Above", "APMPlus_SessionTracker", "APMPlus_Zyone", "APMPlus_HMDLite", "APMPlus_dependency", "APMPlus_Public", "APMPlus_HMD" ]
         ),
         .library(
             name: "APMPlus_OOM",
-            targets: [ "APMPlus_OOM", "APMPlus_Core", "APMPlus_Crash", "APMPlus_WatchDog", "APMPlus_HMD", "APMPlus_Public", "APMPlus_SessionTracker" ]
+            targets: [ "APMPlus_OOM", "APMPlus_Core", "APMPlus_SessionTracker", "APMPlus_Zip", "APMPlus_Public", "APMPlus_HMD", "APMPlus_Above", "APMPlus_WatchDog", "APMPlus_Zyone", "APMPlus_HMDLite", "APMPlus_Crash", "APMPlus_dependency" ]
         ),
         .library(
             name: "APMPlus_UserException",
-            targets: [ "APMPlus_UserException", "APMPlus_Core", "APMPlus_HMD", "APMPlus_Public", "APMPlus_SessionTracker" ]
+            targets: [ "APMPlus_UserException", "APMPlus_Core", "APMPlus_Above", "APMPlus_SessionTracker", "APMPlus_Zyone", "APMPlus_HMDLite", "APMPlus_dependency", "APMPlus_Public", "APMPlus_HMD" ]
         ),
         .library(
             name: "APMPlus_LAG",
-            targets: [ "APMPlus_LAG", "APMPlus_Core", "APMPlus_HMD", "APMPlus_Public", "APMPlus_SessionTracker" ]
+            targets: [ "APMPlus_LAG", "APMPlus_Core", "APMPlus_Above", "APMPlus_SessionTracker", "APMPlus_Zyone", "APMPlus_HMDLite", "APMPlus_dependency", "APMPlus_Public", "APMPlus_HMD" ]
         ),
         .library(
             name: "APMPlus_Hybrid",
-            targets: [ "APMPlus_Hybrid", "APMPlus_Core", "APMPlus_HMD", "APMPlus_Public" ]
+            targets: [ "APMPlus_Hybrid", "APMPlus_Core", "APMPlus_Above", "APMPlus_Zyone", "APMPlus_HMDLite", "APMPlus_dependency", "APMPlus_Public", "APMPlus_HMD" ]
         ),
         .library(
             name: "APMPlus_UITrackers",
-            targets: [ "APMPlus_UITrackers", "APMPlus_Core", "APMPlus_HMD", "APMPlus_Public" ]
+            targets: [ "APMPlus_UITrackers", "APMPlus_Core", "APMPlus_Above", "APMPlus_Zyone", "APMPlus_HMDLite", "APMPlus_dependency", "APMPlus_Public", "APMPlus_HMD" ]
         ),
         .library(
             name: "APMPlus_Monitors",
-            targets: [ "APMPlus_Monitors", "APMPlus_Core", "APMPlus_HMD", "APMPlus_UITrackers" ]
+            targets: [ "APMPlus_Monitors", "APMPlus_Core", "APMPlus_Above", "APMPlus_UITrackers", "APMPlus_Zyone", "APMPlus_HMDLite", "APMPlus_dependency", "APMPlus_Public", "APMPlus_HMD" ]
         ),
         .library(
             name: "APMPlus_HybridPro",
-            targets: [ "APMPlus_HybridPro", "APMPlus_Core", "APMPlus_HMD", "APMPlus_Public" ]
+            targets: [ "APMPlus_HybridPro", "APMPlus_Core", "APMPlus_Above", "APMPlus_Zyone", "APMPlus_HMDLite", "APMPlus_dependency", "APMPlus_Public", "APMPlus_HMD" ]
         ),
         .library(
             name: "APMPlus_MemoryGraph",
-            targets: [ "APMPlus_MemoryGraph", "APMPlus_Core", "APMPlus_HMD", "APMPlus_Public", "APMPlus_Zip" ]
+            targets: [ "APMPlus_MemoryGraph", "APMPlus_Core", "APMPlus_Above", "APMPlus_Zyone", "APMPlus_HMDLite", "APMPlus_dependency", "APMPlus_Zip", "APMPlus_Public", "APMPlus_HMD" ]
         ),
         .library(
             name: "APMPlus_CrashProtector",
-            targets: [ "APMPlus_CrashProtector", "APMPlus_Core", "APMPlus_Crash", "APMPlus_SessionTracker" ]
+            targets: [ "APMPlus_CrashProtector", "APMPlus_Core", "APMPlus_Above", "APMPlus_SessionTracker", "APMPlus_Zyone", "APMPlus_HMDLite", "APMPlus_Crash", "APMPlus_dependency", "APMPlus_Zip", "APMPlus_Public", "APMPlus_HMD" ]
         ),
         .library(
             name: "APMPlus_EventMonitor",
-            targets: [ "APMPlus_EventMonitor", "APMPlus_Core", "APMPlus_HMD", "APMPlus_Public" ]
+            targets: [ "APMPlus_EventMonitor", "APMPlus_Core", "APMPlus_Above", "APMPlus_Zyone", "APMPlus_HMDLite", "APMPlus_dependency", "APMPlus_Public", "APMPlus_HMD" ]
         ),
         .library(
             name: "APMPlus_Flutter",
-            targets: [ "APMPlus_Flutter", "APMPlus_EventMonitor" ]
+            targets: [ "APMPlus_Flutter", "APMPlus_Core", "APMPlus_Above", "APMPlus_EventMonitor", "APMPlus_Zyone", "APMPlus_HMDLite", "APMPlus_dependency", "APMPlus_Public", "APMPlus_HMD" ]
         ),
         .library(
             name: "APMPlus_CN",
-            targets: [ "APMPlus_CN", "APMPlus_Core", "APMPlus_Public" ]
+            targets: [ "APMPlus_CN", "APMPlus_Core", "APMPlus_Above", "APMPlus_Zyone", "APMPlus_HMDLite", "APMPlus_dependency", "APMPlus_Public" ]
         ),
         .library(
             name: "APMPlus_Global",
-            targets: [ "APMPlus_Global", "APMPlus_Core", "APMPlus_Public" ]
+            targets: [ "APMPlus_Global", "APMPlus_Core", "APMPlus_Above", "APMPlus_Zyone", "APMPlus_HMDLite", "APMPlus_dependency", "APMPlus_Public" ]
         ),
         .library(
             name: "APMPlus_SessionTracker",
-            targets: [ "APMPlus_SessionTracker", "APMPlus_Core", "APMPlus_HMD", "APMPlus_Public" ]
+            targets: [ "APMPlus_SessionTracker", "APMPlus_Core", "APMPlus_Above", "APMPlus_Zyone", "APMPlus_HMDLite", "APMPlus_dependency", "APMPlus_Public", "APMPlus_HMD" ]
         ),
         .library(
             name: "APMPlus_APMLog",
-            targets: [ "APMPlus_APMLog", "APMPlus_Core", "APMPlus_HMD", "APMPlus_CloudCommand", "APMPlus_Zip" ]
+            targets: [ "APMPlus_APMLog", "APMPlus_Core", "APMPlus_CloudCommand", "APMPlus_Above", "APMPlus_Zyone", "APMPlus_HMDLite", "APMPlus_dependency", "APMPlus_Zip", "APMPlus_Public", "APMPlus_HMD" ]
         ),
         .library(
             name: "APMPlus_Network",
-            targets: [ "APMPlus_Network", "APMPlus_NetworkBasic" ]
+            targets: [ "APMPlus_Network", "APMPlus_Core", "APMPlus_Above", "APMPlus_NetworkBasic", "APMPlus_Zyone", "APMPlus_HMDLite", "APMPlus_dependency", "APMPlus_Public", "APMPlus_HMD" ]
         ),
         .library(
             name: "APMPlus_NetworkPro",
-            targets: [ "APMPlus_NetworkPro", "APMPlus_NetworkBasic" ]
+            targets: [ "APMPlus_NetworkPro", "APMPlus_Core", "APMPlus_Above", "APMPlus_NetworkBasic", "APMPlus_Zyone", "APMPlus_HMDLite", "APMPlus_dependency", "APMPlus_Public", "APMPlus_HMD" ]
         ),
         .library(
             name: "APMPlus_NetworkBasic",
-            targets: [ "APMPlus_NetworkBasic", "APMPlus_Core", "APMPlus_HMD", "APMPlus_Public" ]
+            targets: [ "APMPlus_NetworkBasic", "APMPlus_Core", "APMPlus_Above", "APMPlus_Zyone", "APMPlus_HMDLite", "APMPlus_dependency", "APMPlus_Public", "APMPlus_HMD" ]
         ),
         .library(
             name: "APMPlus_CPUException",
-            targets: [ "APMPlus_CPUException", "APMPlus_Core", "APMPlus_HMD", "APMPlus_SessionTracker" ]
+            targets: [ "APMPlus_CPUException", "APMPlus_Core", "APMPlus_Above", "APMPlus_SessionTracker", "APMPlus_Zyone", "APMPlus_HMDLite", "APMPlus_dependency", "APMPlus_Public", "APMPlus_HMD" ]
         ),
         .library(
             name: "APMPlus_MetricKit",
-            targets: [ "APMPlus_MetricKit", "APMPlus_Core", "APMPlus_HMD", "APMPlus_SessionTracker" ]
+            targets: [ "APMPlus_MetricKit", "APMPlus_Core", "APMPlus_Above", "APMPlus_SessionTracker", "APMPlus_Zyone", "APMPlus_HMDLite", "APMPlus_dependency", "APMPlus_Public", "APMPlus_HMD" ]
         ),
         .library(
             name: "APMPlus_Zombie",
-            targets: [ "APMPlus_Zombie", "APMPlus_Core", "APMPlus_Crash" ]
+            targets: [ "APMPlus_Zombie", "APMPlus_Core", "APMPlus_Above", "APMPlus_SessionTracker", "APMPlus_Zyone", "APMPlus_Crash", "APMPlus_HMDLite", "APMPlus_Zip", "APMPlus_dependency", "APMPlus_Public", "APMPlus_HMD" ]
         ),
         .library(
             name: "APMPlus_BootingProtectLite",
-            targets: [ "APMPlus_BootingProtectLite", "APMPlus_Crash", "APMPlus_WatchDog" ]
+            targets: [ "APMPlus_BootingProtectLite", "APMPlus_Core", "APMPlus_Above", "APMPlus_WatchDog", "APMPlus_SessionTracker", "APMPlus_Zyone", "APMPlus_Crash", "APMPlus_HMDLite", "APMPlus_Zip", "APMPlus_dependency", "APMPlus_Public", "APMPlus_HMD" ]
         ),
         .library(
             name: "APMPlus_BootingProtect",
-            targets: [ "APMPlus_BootingProtect", "APMPlus_OOM", "APMPlus_BootingProtectLite" ]
+            targets: [ "APMPlus_BootingProtect", "APMPlus_Core", "APMPlus_Above", "APMPlus_WatchDog", "APMPlus_BootingProtectLite", "APMPlus_SessionTracker", "APMPlus_Zyone", "APMPlus_Crash", "APMPlus_HMDLite", "APMPlus_Zip", "APMPlus_dependency", "APMPlus_Public", "APMPlus_OOM", "APMPlus_HMD" ]
         ),
         .library(
             name: "APMPlus_Disk",
-            targets: [ "APMPlus_Disk", "APMPlus_Monitors", "APMPlus_SessionTracker" ]
+            targets: [ "APMPlus_Disk", "APMPlus_Core", "APMPlus_Above", "APMPlus_Monitors", "APMPlus_UITrackers", "APMPlus_SessionTracker", "APMPlus_Zyone", "APMPlus_HMDLite", "APMPlus_dependency", "APMPlus_Public", "APMPlus_HMD" ]
         ),
         .library(
             name: "APMPlus_GWPASan",
-            targets: [ "APMPlus_GWPASan", "APMPlus_Core", "APMPlus_HMD", "APMPlus_Crash" ]
+            targets: [ "APMPlus_GWPASan", "APMPlus_Core", "APMPlus_Above", "APMPlus_SessionTracker", "APMPlus_Zyone", "APMPlus_HMDLite", "APMPlus_Crash", "APMPlus_dependency", "APMPlus_Zip", "APMPlus_Public", "APMPlus_HMD" ]
         ),
         .library(
             name: "APMPlus_Coredump",
-            targets: [ "APMPlus_Coredump", "APMPlus_Crash", "APMPlus_HMD", "APMPlus_Core", "APMPlus_Zip" ]
+            targets: [ "APMPlus_Coredump", "APMPlus_Core", "APMPlus_Above", "APMPlus_SessionTracker", "APMPlus_Zyone", "APMPlus_HMDLite", "APMPlus_Crash", "APMPlus_dependency", "APMPlus_Zip", "APMPlus_Public", "APMPlus_HMD" ]
         ),
         .library(
             name: "APMPlus_CloudCommand",
-            targets: [ "APMPlus_CloudCommand", "APMPlus_Core", "APMPlus_HMD" ]
+            targets: [ "APMPlus_CloudCommand", "APMPlus_Core", "APMPlus_Above", "APMPlus_Zyone", "APMPlus_HMDLite", "APMPlus_dependency", "APMPlus_Public", "APMPlus_HMD" ]
         ),
         .library(
             name: "APMPlus_Zip",
@@ -320,14 +320,15 @@ let package = Package(
             ],
             publicHeadersPath: "",
             linkerSettings: [
+                .unsafeFlags(["-Xlinker", "-ObjC"], .when(platforms: [.iOS])),
                 .linkedFramework("MetricKit"),
+                .linkedFramework("WebKit"),
+                .linkedFramework("CoreTelephony"),
                 .linkedFramework("Security"),
                 .linkedFramework("CoreFoundation"),
-                .linkedFramework("CoreTelephony"),
-                .linkedFramework("WebKit"),
                 .linkedFramework("SystemConfiguration"),
-                .linkedLibrary("resolv"),
                 .linkedLibrary("sqlite3"),
+                .linkedLibrary("resolv"),
                 .linkedLibrary("z"),
                 .linkedLibrary("c++abi"),
                 .linkedLibrary("c++")
