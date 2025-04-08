@@ -320,7 +320,6 @@ let package = Package(
             ],
             publicHeadersPath: "",
             linkerSettings: [
-                .unsafeFlags(["-Xlinker", "-ObjC"], .when(platforms: [.iOS])),
                 .linkedFramework("MetricKit"),
                 .linkedFramework("WebKit"),
                 .linkedFramework("CoreTelephony"),
