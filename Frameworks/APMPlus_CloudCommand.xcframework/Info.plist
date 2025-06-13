@@ -6,11 +6,13 @@
 	<array>
 		<dict>
 			<key>BinaryPath</key>
-			<string>APMPlus_CloudCommand.framework/APMPlus_CloudCommand</string>
+			<string>libAPMPlus_CloudCommand_ios.a</string>
+			<key>HeadersPath</key>
+			<string>Headers</string>
 			<key>LibraryIdentifier</key>
 			<string>ios-arm64</string>
 			<key>LibraryPath</key>
-			<string>APMPlus_CloudCommand.framework</string>
+			<string>libAPMPlus_CloudCommand_ios.a</string>
 			<key>SupportedArchitectures</key>
 			<array>
 				<string>arm64</string>
@@ -20,13 +22,16 @@
 		</dict>
 		<dict>
 			<key>BinaryPath</key>
-			<string>APMPlus_CloudCommand.framework/APMPlus_CloudCommand</string>
+			<string>libAPMPlus_CloudCommand_ios_sim.a</string>
+			<key>HeadersPath</key>
+			<string>Headers</string>
 			<key>LibraryIdentifier</key>
-			<string>ios-x86_64-simulator</string>
+			<string>ios-arm64_x86_64-simulator</string>
 			<key>LibraryPath</key>
-			<string>APMPlus_CloudCommand.framework</string>
+			<string>libAPMPlus_CloudCommand_ios_sim.a</string>
 			<key>SupportedArchitectures</key>
 			<array>
+				<string>arm64</string>
 				<string>x86_64</string>
 			</array>
 			<key>SupportedPlatform</key>
