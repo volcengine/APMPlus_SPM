@@ -1,0 +1,6 @@
+framework module APMPlus_HMDLite {
+  umbrella header "APMPlus_HMDLite.h"
+  export *
+
+  module * { export * }
+}

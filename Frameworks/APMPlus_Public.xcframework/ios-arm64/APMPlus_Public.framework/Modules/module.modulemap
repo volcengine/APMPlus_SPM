@@ -1,0 +1,6 @@
+framework module APMPlus_Public {
+  umbrella header "APMPlus_Public.h"
+  export *
+
+  module * { export * }
+}

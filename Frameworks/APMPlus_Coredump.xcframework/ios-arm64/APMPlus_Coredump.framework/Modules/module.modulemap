@@ -1,0 +1,6 @@
+framework module APMPlus_Coredump {
+  umbrella header "APMPlus_Coredump.h"
+  export *
+
+  module * { export * }
+}

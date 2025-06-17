@@ -1,0 +1,6 @@
+framework module APMPlus_EventMonitor {
+  umbrella header "APMPlus_EventMonitor.h"
+  export *
+
+  module * { export * }
+}

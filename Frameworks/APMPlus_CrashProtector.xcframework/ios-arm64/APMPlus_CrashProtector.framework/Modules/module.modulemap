@@ -1,0 +1,6 @@
+framework module APMPlus_CrashProtector {
+  umbrella header "APMPlus_CrashProtector.h"
+  export *
+
+  module * { export * }
+}

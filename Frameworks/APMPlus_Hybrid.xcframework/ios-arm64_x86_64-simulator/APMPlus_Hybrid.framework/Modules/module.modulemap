@@ -1,0 +1,6 @@
+framework module APMPlus_Hybrid {
+  umbrella header "APMPlus_Hybrid.h"
+  export *
+
+  module * { export * }
+}

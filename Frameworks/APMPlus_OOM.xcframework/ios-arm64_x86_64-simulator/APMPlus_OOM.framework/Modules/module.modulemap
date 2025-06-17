@@ -1,0 +1,6 @@
+framework module APMPlus_OOM {
+  umbrella header "APMPlus_OOM.h"
+  export *
+
+  module * { export * }
+}

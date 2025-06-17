@@ -1,0 +1,6 @@
+framework module APMPlus_SessionTracker {
+  umbrella header "APMPlus_SessionTracker.h"
+  export *
+
+  module * { export * }
+}

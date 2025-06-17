@@ -1,0 +1,6 @@
+framework module APMPlus_BytePlus {
+  umbrella header "APMPlus_BytePlus.h"
+  export *
+
+  module * { export * }
+}

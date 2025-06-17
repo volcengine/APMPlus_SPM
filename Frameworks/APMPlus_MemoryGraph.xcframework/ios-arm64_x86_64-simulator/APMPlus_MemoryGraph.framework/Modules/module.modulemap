@@ -1,0 +1,6 @@
+framework module APMPlus_MemoryGraph {
+  umbrella header "APMPlus_MemoryGraph.h"
+  export *
+
+  module * { export * }
+}

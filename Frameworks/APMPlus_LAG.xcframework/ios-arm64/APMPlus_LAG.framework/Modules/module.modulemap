@@ -1,0 +1,6 @@
+framework module APMPlus_LAG {
+  umbrella header "APMPlus_LAG.h"
+  export *
+
+  module * { export * }
+}

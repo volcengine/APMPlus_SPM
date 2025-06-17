@@ -1,0 +1,6 @@
+framework module APMPlus_APMLog {
+  umbrella header "APMPlus_APMLog.h"
+  export *
+
+  module * { export * }
+}

@@ -6,13 +6,11 @@
 	<array>
 		<dict>
 			<key>BinaryPath</key>
-			<string>libAPMPlus_WatchDog_ios_sim.a</string>
-			<key>HeadersPath</key>
-			<string>Headers</string>
+			<string>APMPlus_WatchDog.framework/APMPlus_WatchDog</string>
 			<key>LibraryIdentifier</key>
 			<string>ios-arm64_x86_64-simulator</string>
 			<key>LibraryPath</key>
-			<string>libAPMPlus_WatchDog_ios_sim.a</string>
+			<string>APMPlus_WatchDog.framework</string>
 			<key>SupportedArchitectures</key>
 			<array>
 				<string>arm64</string>
@@ -25,13 +23,11 @@
 		</dict>
 		<dict>
 			<key>BinaryPath</key>
-			<string>libAPMPlus_WatchDog_ios.a</string>
-			<key>HeadersPath</key>
-			<string>Headers</string>
+			<string>APMPlus_WatchDog.framework/APMPlus_WatchDog</string>
 			<key>LibraryIdentifier</key>
 			<string>ios-arm64</string>
 			<key>LibraryPath</key>
-			<string>libAPMPlus_WatchDog_ios.a</string>
+			<string>APMPlus_WatchDog.framework</string>
 			<key>SupportedArchitectures</key>
 			<array>
 				<string>arm64</string>

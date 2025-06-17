@@ -1,0 +1,6 @@
+framework module APMPlus_GWPASan {
+  umbrella header "APMPlus_GWPASan.h"
+  export *
+
+  module * { export * }
+}
