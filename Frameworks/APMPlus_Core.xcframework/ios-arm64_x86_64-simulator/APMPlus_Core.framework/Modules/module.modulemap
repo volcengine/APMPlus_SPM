@@ -1,6 +1,6 @@
 framework module APMPlus_Core {
   umbrella header "APMPlus_Core.h"
-  export *
 
+  export *
   module * { export * }
 }

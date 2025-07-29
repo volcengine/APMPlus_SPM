@@ -1,6 +1,6 @@
 framework module APMPlus_Zip {
   umbrella header "APMPlus_Zip.h"
-  export *
 
+  export *
   module * { export * }
 }
