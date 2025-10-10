@@ -14,7 +14,7 @@ This is a SPM version for [APMPlus](https://www.volcengine.com/docs/6431/68850).
 > [!NOTE]   
 > In order to prevent library name conflicts in SPM, the APMPlus_ prefix is ​​added to the subspec name of CocoaPods. For example, if we want to know the function of the library named APMPlus_Disk, we can remove the prefix and search for the function description of Disk in [this document](https://www.volcengine.com/docs/6431/68850#f391c95d).
 
-### 3. Add -ObjC, -Xlinker options to the OTHER_LDFLAGS build setting.
+### 3. Add -ObjC options to the OTHER_LDFLAGS build setting.
 > [!WARNING]
 > Without the options above, there might be linking errors or runtime errors in your project.
 
