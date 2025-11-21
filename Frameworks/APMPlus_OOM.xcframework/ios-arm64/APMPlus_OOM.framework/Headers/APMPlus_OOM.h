@@ -18,5 +18,6 @@ FOUNDATION_EXPORT const unsigned char APMPlus_OOMVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <APMPlus_OOM/PublicHeader.h>
         
+#import <APMPlus_OOM/RangersAPMOOMRecord.h>
 #import <APMPlus_OOM/RangersAPM+OOMCrashConfig.h>
 #endif

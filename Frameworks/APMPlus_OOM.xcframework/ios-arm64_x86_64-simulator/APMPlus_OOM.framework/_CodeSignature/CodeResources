@@ -6,15 +6,19 @@
 	<dict>
 		<key>Headers/APMPlus_OOM.h</key>
 		<data>
-		9mB8Rb+jlB4aCDS1yIBQR0LipZo=
+		2RNRf3vOdmvmWS16PoHPK6+rZKU=
 		</data>
 		<key>Headers/RangersAPM+OOMCrashConfig.h</key>
 		<data>
-		YVEODkpCVn+ehrAQVbMWd0JduK0=
+		GFMdbJu6Vh22W2JjfEtrr3sOJJY=
+		</data>
+		<key>Headers/RangersAPMOOMRecord.h</key>
+		<data>
+		3pCvESo/nrYU8R3OgnFgfH5hK9A=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		I/jcrCcrf0kvLPyQeQa47JItmz8=
+		qxydJvKmEVg8lBLZopkWbzbhT3M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -27,22 +31,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9mB8Rb+jlB4aCDS1yIBQR0LipZo=
+			2RNRf3vOdmvmWS16PoHPK6+rZKU=
 			</data>
 			<key>hash2</key>
 			<data>
-			r+q3b9sq/M9vuNgdotetjb4N9X1wL8AwHJcr/ArrH4I=
+			MvgeHHxdPaCsWHjHLnhuFxs4yT8fk3zrJWbD4lwpGvs=
 			</data>
 		</dict>
 		<key>Headers/RangersAPM+OOMCrashConfig.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YVEODkpCVn+ehrAQVbMWd0JduK0=
+			GFMdbJu6Vh22W2JjfEtrr3sOJJY=
 			</data>
 			<key>hash2</key>
 			<data>
-			QrKX/jwaa8xbPz0ZWFlT/2n/HRcG3ELTDSzAO3OQD20=
+			isXt8HNIeUb7sPqCujgvX3jyu+Wdv52VMJ2AoegwHBM=
+			</data>
+		</dict>
+		<key>Headers/RangersAPMOOMRecord.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3pCvESo/nrYU8R3OgnFgfH5hK9A=
+			</data>
+			<key>hash2</key>
+			<data>
+			ofhXzCCBw8WMEzFawnXpC13CYDaXAAsPHP7QXqMhXss=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
