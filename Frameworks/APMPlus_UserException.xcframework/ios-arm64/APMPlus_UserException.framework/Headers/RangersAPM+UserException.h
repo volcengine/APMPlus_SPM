@@ -39,6 +39,25 @@ NS_ASSUME_NONNULL_BEGIN
                                    callback:(RangersAPMUserExceptionCallback)callback;
 
 /**
+ 记录一条自定义异常事件，自定义调用栈
+
+ @param exceptionType 异常类型，不可为空
+ @param title 自定义异常标题（用于聚合），不可为空
+ @param subTitle 自定义异常子标题（用于聚合），不可为空
+ @param customStack 自定义调用栈
+ @param customParams 自定义的现场信息，可在平台详情页中展示
+ @param filters 自定义的筛选项，可在平台列表页中筛选
+ @param callback 日志是否记录成功的回调，如果失败的话NSError非空，errcode的定义见RangersAPMUserExceptionFailType枚举
+ */
++ (void)trackUserExceptionWithExceptionType:(NSString *)exceptionType
+                                      title:(NSString *)title
+                                   subTitle:(NSString *)subTitle
+                                customStack:(NSString *_Nullable)customStack
+                               customParams:(NSDictionary<NSString *, id> *_Nullable)customParams
+                                    filters:(NSDictionary<NSString *, id> *_Nullable)filters
+                                   callback:(RangersAPMUserExceptionCallback)callback;
+
+/**
  记录一条自定义异常事件并且上报所有线程的调用栈，指定当前线程作为关键线程
 
  @param exceptionType 异常类型，不可为空

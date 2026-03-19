@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/RangersAPM+UserException.h</key>
 		<data>
-		ka+KruBxg65aNb+VJM3RqkZB7F8=
+		gjtmNj9MHLDq5lNBOkT+fbdaTK0=
 		</data>
 		<key>Headers/RangersAPMForSDK+UserException.h</key>
 		<data>
-		WYQRmtrnKke86Dp+YVFQg5dUZsc=
+		bXY0ypl4KNOHUnCtPeHt27YHGN8=
 		</data>
 		<key>Headers/RangersAPMUserExceptionErrorType.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		JDP7JDqtMJejByUFkZ8lHADkiTE=
+		bHK4GeS6dm8rHuh/ERw3G8gQ+D0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -46,22 +46,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ka+KruBxg65aNb+VJM3RqkZB7F8=
+			gjtmNj9MHLDq5lNBOkT+fbdaTK0=
 			</data>
 			<key>hash2</key>
 			<data>
-			94/t/SPWy8m/Vwc9CLrMFtqyzffdNTlBSDNn2LTAdns=
+			JED//MpurABEoK3gHZXQ9pXz8cpiSQqL3ONX0Pr6a60=
 			</data>
 		</dict>
 		<key>Headers/RangersAPMForSDK+UserException.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WYQRmtrnKke86Dp+YVFQg5dUZsc=
+			bXY0ypl4KNOHUnCtPeHt27YHGN8=
 			</data>
 			<key>hash2</key>
 			<data>
-			mhQybJIz+UKAXsY7VC0KFQ41exCADGLtB/SwmPDM6fs=
+			9sj061U37eRkRHslCadsVd4VSyaG32PBb+DD9QcBuiQ=
 			</data>
 		</dict>
 		<key>Headers/RangersAPMUserExceptionErrorType.h</key>
