@@ -25,3 +25,7 @@ The access method of this solution is basically the same as [the access method o
 > [!Note]
 > SPM is available from version 5.2.1, and you can get the changelog via the link below.
 https://github.com/volcengine/APMInsight_iOS/blob/master/README.md
+
+## Security and privacy
+This project takes security seriously.
+For vulnerability reporting and supported versions, see [SECURITY.md](SECURITY.md)
